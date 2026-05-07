@@ -1,0 +1,29 @@
+El modelo de datos debe contemplar, como mínimo, las siguientes
+funcionalidades:
+● Registro y gestión de múltiples cines (ubicación, nombre, etc.).
+● Administración de salas dentro de cada cine, considerando diferentes
+tipos de salas (tradicional, 3D, IMAX, VIP, entre otras).
+● Gestión de películas, incluyendo información relevante como título,
+duración, género, clasificación por edad mínima y descripción.
+● Creación y administración de carteleras, permitiendo asignar películas
+a salas específicas en horarios determinados.
+● Control de restricciones de edad para el acceso a funciones.
+● Manejo de asientos por sala y disponibilidad por función.
+● Posibilidad de registrar funciones (horarios) asociadas a cada película y
+sala.
+
+Deberás dar continuidad al desarrollo de la solución de servicios de cine. En esta etapa, se espera que implementes los
+siguientes componentes clave del backend:
+ Configuración del proyecto: Instalación y uso de las
+dependencias necesarias como Express y CORS, asegurando
+la correcta configuración del servidor.
+ Controladores (Controllers): Encargados de gestionar la lógica
+de las operaciones y la interacción con los modelos.
+ Rutas (Routes): Definición de las rutas que permitirán acceder a
+cada funcionalidad del sistema.
+ Endpoints HTTP funcionales: Implementación de endpoints
+correctamente estructurados utilizando métodos como GET,
+POST, PUT y DELETE.
+ Validaciones de lógica de negocio complejas: Aplicación de
+reglas que aseguren la integridad de los datos y el correcto
+funcionamiento del sistema.
